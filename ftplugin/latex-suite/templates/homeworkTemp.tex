@@ -1,0 +1,51 @@
+<+	+>	!comp!	!exe!
+%        File: !comp!expand("%:p:t")!comp!
+%     Created: !comp!strftime("%a %b %d %I:00 %p %Y ").substitute(strftime('%Z'), '\<\(\w\)\(\w*\)\>\(\W\|$\)', '\1', 'g')!comp!
+% Last Change: !comp!strftime("%a %b %d %I:00 %p %Y ").substitute(strftime('%Z'), '\<\(\w\)\(\w*\)\>\(\W\|$\)', '\1', 'g')!comp!
+%
+\documentclass[12pt]{article}  %document class
+
+
+% Changes to page geometry (I tried to use more of each page)
+% See geometry.pdf to learn the layout options. There are lots.
+\usepackage{geometry}				
+\geometry{a4paper}          % uses more of the page for some reason
+%\geometry{landscape}       % Activate for for rotated page geometry
+
+
+% Other packages
+\usepackage{graphicx}							% Used to include figures
+\usepackage{amssymb}							% Extra math characters I think 
+\usepackage{sectsty}							% Formatting changes (ie section font)
+\usepackage{amsmath}							% Useful math package
+\usepackage[pdfborder={0 0 0}]{hyperref}
+%\usepackage{mycommands}  					% commonly used custom commands
+%\usepackage[parfill]{parskip}    	% Begin paragraphs with empty line
+
+
+%%  Formating changes begin  %%
+
+%\numberwithin{equation}{section} % changes section depth eq. #'s
+\sectionfont{\large} 				% changes section heading font style
+\setcounter{secnumdepth}{0}    		% depth to which sections are #ered
+
+
+%Used to make a description with one element
+\newcommand{\probpart}[2]{
+\begin{description}
+\item[#1] #2  \\
+\end{description}}
+	
+%Begin Document
+\begin{document}
+
+% Heading
+\begin{flushright} <+title+> \\ <+class+> \\ Aaron Hankin\\ \today 
+\end{flushright}  	
+\vspace{0.5cm}
+<++>
+
+\end{document}
+
+	
+  

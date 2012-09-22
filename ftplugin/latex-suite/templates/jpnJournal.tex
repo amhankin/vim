@@ -1,0 +1,21 @@
+<+	+>	!comp!	!exe!
+%        File: !comp!expand("%:p:t")!comp!
+%     Created: !comp!strftime("%a %b %d %I:00 %p %Y ").substitute(strftime('%Z'), '\<\(\w\)\(\w*\)\>\(\W\|$\)', '\1', 'g')!comp!
+% Last Change: !comp!strftime("%a %b %d %I:00 %p %Y ").substitute(strftime('%Z'), '\<\(\w\)\(\w*\)\>\(\W\|$\)', '\1', 'g')!comp!
+%
+\documentclass[11pt]{scrartcl}
+\usepackage{CJK}
+\usepackage{indentfirst} 
+\pagestyle{empty}
+
+\begin{document}\begin{CJK*}[dnp]{JIS}{min}
+
+% Heading
+\begin{flushright} <+title+> \\ <+class+> \\ Aaron Hankin\\ \today 
+\end{flushright}  	
+\vspace{0.5cm}
+<++>
+
+  
+\end{CJK*}\end{document}
+% vim:set fenc=euc-jp:

@@ -1,0 +1,10 @@
+--- /usr/share/vim/addons/ftplugin/latex-suite/folding.vim	2008-04-19 16:10:25.000000000 +0200
++++ folding.vim	2009-04-20 18:19:02.000000000 +0200
+@@ -284,7 +284,6 @@
+ 					" In other words, the pattern is safe, but not exact.
+ 					call AddSyntaxFoldItem('^\s*\\'.s.'{[^{}]*$','^[^}]*}',0,0)
+ 				else
+-					call AddSyntaxFoldItem('^\s*\\begin{'.s,'^\s*\\end{'.s,0,0)
+ 					" call AddSyntaxFoldItem('^\s*\\begin{'.s,'^\s*\\end{'.s,0,0)
+ 					call AddSyntaxFoldItem('^\s*\\begin{'.s,'\(^\|\s\)\s*\\end{'.s,0,0)
+ 				endif

@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/media/RonMac/Videos/Fullmetal Alchemist/[Eclipse] Fullmetal Alchemist Brotherhood (1280x720 h264)'
+let g:netrw_dirhist_2='/etc'
+let g:netrw_dirhist_3='/home/quickridge/.mplayer'
+let g:netrw_dirhist_4='/home/quickridge/gnome-shell/source'
+let g:netrw_dirhist_5='/usr/share/fontconfig/conf.avail'
+let g:netrw_dirhist_6='/home/amhankin/.vim'
+let g:netrw_dirhist_7='/home/amhankin/Research/prog'
