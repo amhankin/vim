@@ -22,3 +22,9 @@
 [submodule "pyflakes-pathogen"]
 	path = pyflakes-pathogen
 	url = https://github.com/mitechie/pyflakes-pathogen.git
+[submodule "git"]
+	path = git
+	url = ./bundle/git
+[submodule "snipmate"]
+	path = snipmate
+	url = ./bundle/snipmate
