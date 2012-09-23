@@ -18,3 +18,6 @@ map <leader>ll :w\|!python %<CR>
 " Set folds
 set foldmethod=indent
 set foldnestmax=2
+
+let vim_server_script = 'gvim'
+let vim_client_script = 'gvim'

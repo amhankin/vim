@@ -114,3 +114,12 @@ hi NonText          ctermfg=lightblue													cterm=NONE
 hi VertSplit        																					cterm=NONE term=NONE 
 hi MatchParen       ctermfg=black  			ctermbg=darkblue		 	cterm=NONE
 hi User1                               				          			cterm=bold
+
+" MiniBufExpl Colors
+hi MBEVisibleActive guifg=#A6DB29 guibg=fg
+hi MBEVisibleChangedActive guifg=lightred guibg=fg gui=bold
+hi MBEVisibleChanged guifg=lightred guibg=fg gui=bold
+hi MBEVisibleNormal guifg=#5DC2D6 guibg=fg
+hi MBEChanged guifg=#CD5907 guibg=fg
+hi MBENormal guifg=#808080 guibg=fg
+

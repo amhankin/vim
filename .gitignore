@@ -3,3 +3,4 @@ view/*
 backup/*
 *.swp
 *.swo
+.this_session*
