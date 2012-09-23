@@ -16,7 +16,7 @@ set completeopt=menuone,longest,preview
 map <leader>ll :w\|!python %<CR>
 
 " Set folds
-set foldmethod=indent
+set foldmethod=syntax
 set foldnestmax=2
 
 let vim_server_script = 'gvim'
