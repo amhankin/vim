@@ -1,10 +1,10 @@
 " Set style according to vim style guide
-set expandtab
-set textwidth=79
-set tabstop=8
-set softtabstop=4
-set shiftwidth=4
-set autoindent
+setlocal expandtab
+setlocal textwidth=79
+setlocal tabstop=8
+setlocal softtabstop=4
+setlocal shiftwidth=4
+setlocal autoindent
 :syntax on
 
 " Use omi code completion with SuperTab
@@ -14,10 +14,11 @@ set completeopt=menuone,longest,preview
 
 " Key mappings
 map <leader>ll :w\|!python %<CR>
+map <silent>rf :set foldmethod=indent<CR>
 
 " Set folds
-set foldmethod=syntax
-set foldnestmax=2
+"au bufwinenter *.py setlocal foldmethod=indent
+"au bufwinenter *.py setlocal foldnestmax=2
 
-let vim_server_script = 'gvim'
-let vim_client_script = 'gvim'
+"let vim_server_script = 'gvim'
+"let vim_client_script = 'gvim'
