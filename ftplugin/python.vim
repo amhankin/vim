@@ -14,11 +14,11 @@ set completeopt=menuone,longest,preview
 
 " Key mappings
 map <leader>ll :w\|!python %<CR>
-map <silent>rf :set foldmethod=indent<CR>
+map <silent><leader>rf :set foldmethod=indent<CR>
 
 " Set folds
-"au bufwinenter *.py setlocal foldmethod=indent
-"au bufwinenter *.py setlocal foldnestmax=2
+au bufwinenter *.py setlocal foldmethod=indent
+au bufwinenter *.py setlocal foldnestmax=2
 
 "let vim_server_script = 'gvim'
 "let vim_client_script = 'gvim'
