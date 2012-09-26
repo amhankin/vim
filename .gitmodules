@@ -61,3 +61,6 @@
 [submodule "bundle/sessionman"]
 	path = bundle/sessionman
 	url = https://github.com/vim-scripts/sessionman.vim.git
+[submodule "snipmate.vim"]
+	path = snipmate.vim
+	url = https://github.com/msanders/snipmate.vim.git
