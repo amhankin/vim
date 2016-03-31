@@ -1,1 +1,0 @@
-/home/quickridge/Scripts/gnuplt.vim
