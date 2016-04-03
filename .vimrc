@@ -40,7 +40,7 @@
 	Plugin 'klen/python-mode'
 	Plugin 'vim-latex/vim-latex'
 	Plugin 'altercation/vim-colors-solarized'
-	#Plugin 'vim-scripts/taglist.vim'
+	Plugin 'taglist.vim'
 
 	" The bundles you install will be listed here
 	filetype plugin indent on

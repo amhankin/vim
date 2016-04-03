@@ -52,9 +52,11 @@
 [submodule "bundle/taglist"]
 	path = bundle/taglist
 	url = https://github.com/vim-scripts/taglist.vim.git
+	ignore = dirty
 [submodule "taglist"]
 	path = taglist
 	url = ./bundle/taglist
+	ignore = dirty
 [submodule "bundle/vimpdb"]
 	path = bundle/vimpdb
 	url = https://github.com/gotcha/vimpdb.git

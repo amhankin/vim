@@ -5,3 +5,5 @@ backup/*
 *.swo
 ._this_session*
 session/*
+.netrwhist
+bundle/taglist.vim/doc/tags
