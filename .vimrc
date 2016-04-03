@@ -21,10 +21,12 @@
 	endif
 	let g:solarized_termcolors=256
 	syntax enable
-	set background=dark
 	colorscheme solarized
+	set background=dark
 
 " Vundle Settings
+" How install Vundle: 
+" https://github.com/VundleVim/Vundle.vim.git
 	set nocompatible
 	filetype off
 	set rtp+=~/.vim/bundle/Vundle.vim
@@ -38,6 +40,7 @@
 	Plugin 'klen/python-mode'
 	Plugin 'vim-latex/vim-latex'
 	Plugin 'altercation/vim-colors-solarized'
+	Plugin 'vim-scripts/taglist.vim'
 
 	" The bundles you install will be listed here
 	filetype plugin indent on
@@ -47,6 +50,10 @@
     let g:miniBufExplMapCTabSwitchBufs = 1 
 	let g:miniBufExplMapWindowNavVim = 1
 	let g:miniBufExplModSelTarget = 1
+
+" Taglist.vim settings
+	nnoremap <silent> <leader>c :TlistToggle<CR>
+
 
 
 "Key mappings
