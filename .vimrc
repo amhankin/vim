@@ -22,10 +22,9 @@
 	let g:solarized_termcolors=256
 	let g:solarized_contrast="high"
 	syntax enable
-	set background=dark
 	colorscheme solarized
 	if has('gui_running')
-		set background=dark
+		set background=light
 	else
 		set background=light
 	endif

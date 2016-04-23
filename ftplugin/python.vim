@@ -1,5 +1,8 @@
 
 
+" Generic settings
+set spell
+
 " Tab settings
 	set tabstop=4
 	set shiftwidth=4
@@ -33,7 +36,6 @@
 	let g:pymode_quickfix_minheight = 3
 	let g:pymode_quickfix_maxheight = 6
 	let g:pymode_lint_ignore = "E265,E266"
-
 	
 	"Rope support
     let g:pymode_rope = 0
@@ -43,3 +45,9 @@
 	
 " Jedi-vim settings	
  	let g:jedi#popup_on_dot = 0
+
+" Switching between split screens 
+noremap <C-j> <C-w><C-j>
+noremap <C-k> <C-w><C-k>
+noremap <C-l> <C-w><C-l>
+noremap <C-h> <C-w><C-h>
