@@ -46,6 +46,9 @@ set spell
 " Jedi-vim settings	
  	let g:jedi#popup_on_dot = 0
 
+" vim-pydocstring settings
+ 	let g:template_vim_template_dir = 'template/googlestyle'
+
 " Switching between split screens 
 noremap <C-j> <C-w><C-j>
 noremap <C-k> <C-w><C-k>

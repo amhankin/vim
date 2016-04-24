@@ -46,7 +46,7 @@
 	Plugin 'vim-latex/vim-latex'
 	Plugin 'altercation/vim-colors-solarized'
 	Plugin 'taglist.vim'
-	Plugin 'amhankin/vim-pydocstring'
+	Plugin 'amhankin/vim-pydocstring-1'
 
 	" The bundles you install will be listed here
 	filetype plugin indent on
