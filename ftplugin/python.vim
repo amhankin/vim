@@ -46,6 +46,8 @@ set spell
 " Jedi-vim settings	
  	let g:jedi#popup_on_dot = 0
 
+" Simply fold
+
 " vim-pydocstring settings
 	let g:pydocstring_templates_dir = 'template/googlestyle/'
 

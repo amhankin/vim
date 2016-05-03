@@ -14,6 +14,7 @@
 	set noeb vb t_vb= 		" No errorbells?
 	set ruler				" Display column and row
 	set hlsearch			" highlight search terms
+	set completeopt=menuone,preview,longest
 
 " Sytnax highlighting stuff
 	if $COLORTERM == 'gnome-terminal'
@@ -24,9 +25,9 @@
 	syntax enable
 	colorscheme solarized
 	if has('gui_running')
-		set background=light
+		set background=dark
 	else
-		set background=light
+		set background=dark
 	endif
 
 " Vundle Settings
@@ -41,12 +42,13 @@
 	" required! 
 	Plugin 'gmarik/Vundle.vim'
 	Plugin 'fholgado/minibufexpl.vim'
-	Plugin 'davidhalter/jedi-vim'
-	Plugin 'klen/python-mode'
 	Plugin 'vim-latex/vim-latex'
 	Plugin 'altercation/vim-colors-solarized'
 	Plugin 'amhankin/taglist.vim'
 	Plugin 'amhankin/vim-pydocstring'
+	Plugin 'tmhedberg/SimpylFold'
+	Plugin 'davidhalter/jedi-vim'
+	"Plugin 'klen/python-mode'
 
 	" The bundles you install will be listed here
 	filetype plugin indent on
