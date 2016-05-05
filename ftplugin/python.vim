@@ -47,6 +47,7 @@ set spell
  	let g:jedi#popup_on_dot = 0
 
 " Simply fold
+	let g:SimpylFold_docstring_preview = 1
 
 " vim-pydocstring settings
 	let g:pydocstring_templates_dir = 'template/googlestyle/'

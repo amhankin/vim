@@ -48,6 +48,7 @@
 	Plugin 'amhankin/vim-pydocstring'
 	Plugin 'tmhedberg/SimpylFold'
 	Plugin 'davidhalter/jedi-vim'
+	Plugin 'keflavich/macvim-skim'
 	"Plugin 'klen/python-mode'
 
 	" The bundles you install will be listed here

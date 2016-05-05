@@ -3,3 +3,8 @@
 :set guioptions-=r  "remove right-hand scroll bar
 :set guioptions-=L  "remove left-hand scroll bar
 ":set guifont=Menlo:h11
+
+if has("gui_macvim")
+  macmenu &Tools.Make key=<nop>
+    "map <D-t> :CommandT<CR>
+  endif
