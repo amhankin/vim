@@ -1,8 +1,9 @@
 set spell
+set completeopt=menuone,preview
+set tabstop=2
+set shiftwidth=2
+set foldnestmax=1
 
-" this is mostly a matter of taste. but LaTeX looks good with just a bit
-" of indentation.
-set sw=2
 " TIP: if you write your \label's as \label{fig:something}, then if you
 " type in \ref{fig: and press <C-n> you will automatically cycle through
 " all the figure labels. Very useful!
@@ -20,10 +21,10 @@ let g:Tex_ViewRule_pdf = 'Skim'
 " http://reference-man.blogspot.com/2011/09/fully-integrated-latex-in-macvim.html
 " preview, switch back to main window
 "map <D-r> :w<cr><leader>ll:!bibtex poster<cr><leader>ll<leader>ll
-map <D-r> :w<cr><leader>ll<leader>ll
+map <D-r> :w<cr><leader>ll
 imap <D-r> <ESC><D-r>
 map <D-b> :w<cr><leader>ll:exe '!bibtex ' . expand('%:r')<cr><leader>ll<leader>ll
-imap <D-b> <ESC><D-f>
+imap <D-b> <ESC><D-b>
 
 " Warnings to ignore
 let g:Tex_IgnoredWarnings ='
@@ -43,7 +44,9 @@ let g:Tex_FoldedEnvironments="verbatim,comment,eq,gather,align,figure,table,theb
 if !exists("g:macvim_skim_app_path")
     let g:macvim_skim_app_path='/Applications/Skim.app'
 endif
-set foldnestmax=0
+
+" Autocomplete settings:
+let g:Tex_Env_figure = "\\begin{figure}%[htbp]\<CR>\\includegraphics[width=<++>\\linewidth]{<+file+>}\<CR>\\caption{<+caption text+>}\<CR>\\label{fig:<+label+>}\<CR>\\end{figure}\<CR><++>"
 
 "" Activate skim
 "nnoremap <buffer> <localleader>v
