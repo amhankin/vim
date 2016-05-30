@@ -21,13 +21,13 @@
 	  set t_Co=256
 	endif
 	let g:solarized_termcolors=256
-	let g:solarized_contrast="high"
+	"let g:solarized_contrast="high"
 	syntax enable
 	colorscheme solarized
 	if has('gui_running')
-		set background=dark
+		set background=light
 	else
-		set background=dark
+		set background=light
 	endif
 
 " Vundle Settings
