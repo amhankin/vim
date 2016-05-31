@@ -44,13 +44,16 @@ set spell
 	"let g:pymode_rope_autoimport_modules = ['os', 'shutil', 'datetime', 'pylab', 'numpy', 'scipy']
 	
 " Jedi-vim settings	
- 	let g:jedi#popup_on_dot = 0
+let g:jedi#popup_on_dot = 0
 
 " Simply fold
-	let g:SimpylFold_docstring_preview = 1
+let g:SimpylFold_docstring_preview = 1
 
 " vim-pydocstring settings
-	let g:pydocstring_templates_dir = 'template/googlestyle/'
+let g:pydocstring_templates_dir = 'template/googlestyle/'
+
+" vim-flake8 customization
+let g:flake8_cmd="/opt/local/bin/flake8"
 
 " Switching between split screens 
 noremap <C-j> <C-w><C-j>
