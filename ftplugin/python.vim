@@ -48,9 +48,11 @@ let g:jedi#popup_on_dot = 0
 
 " Simply fold
 let g:SimpylFold_docstring_preview = 1
+let g:SimpylFold_next_blank = 1
 
 " vim-pydocstring settings
 let g:pydocstring_templates_dir = 'template/googlestyle/'
+nmap <silent> <leader>l <Plug>(pydocstring)
 
 " vim-flake8 customization
 let g:flake8_cmd="/opt/local/bin/flake8"
