@@ -5,8 +5,11 @@ set spell
 
 " Tab settings
 	set tabstop=4
+	set softtabstop=4
 	set shiftwidth=4
+	set textwidth=79
 	set expandtab
+	set colorcolumn=80  " Show vertical line at 80 characters
 
 " Autocommands
 	augroup python_autocmds

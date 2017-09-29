@@ -4,10 +4,12 @@
 	set undolevels=200
 	set showmode
 	set number
-	set tabstop=4
 	set autoindent
 	set showcmd
+	set tabstop=4
+	set softtabstop=4
 	set shiftwidth=4
+    "set expandtab
 	set linebreak
 	set wrap
 	set autochdir
