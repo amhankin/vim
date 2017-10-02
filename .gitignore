@@ -7,3 +7,4 @@ backup/*
 session/*
 .netrwhist
 bundle/taglist.vim/doc/tags
+.old/
