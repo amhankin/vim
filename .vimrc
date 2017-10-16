@@ -47,7 +47,7 @@
 	Plugin 'vim-latex/vim-latex'
 	Plugin 'altercation/vim-colors-solarized'
 	Plugin 'amhankin/taglist.vim'
-	Plugin 'amhankin/vim-pydocstring'
+	Plugin 'heavenshell/vim-pydocstring'
 	"Plugin 'tmhedberg/SimpylFold'
 	Plugin 'amhankin/SimpylFold'
 	Plugin 'davidhalter/jedi-vim'

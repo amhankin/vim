@@ -54,7 +54,8 @@ let g:SimpylFold_docstring_preview = 1
 let g:SimpylFold_next_blank = 1
 
 " vim-pydocstring settings
-let g:pydocstring_templates_dir = 'template/googlestyle/'
+"let g:pydocstring_templates_dir = 'template/googlestyle/'
+let g:pydocstring_templates_dir = '~/.vim/ftplugin/python/vim-pydocstring/template/pydocstring/'
 nmap <silent> <leader>l <Plug>(pydocstring)
 
 " vim-flake8 customization
