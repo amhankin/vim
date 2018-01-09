@@ -40,7 +40,7 @@ let g:Tex_IgnoredWarnings ='
 
 " Folding settings
 "let g:Tex_FoldedSections="section,%%fakesection,subsection,subsubsection,paragraph"
-let g:Tex_FoldedEnvironments="verbatim,comment,eq,gather,align,figure,table,thebibliography,keywords,abstract,titlepage,lstlisting,alertblock,block"
+let g:Tex_FoldedEnvironments="verbatim,comment,eq,gather,align,figure,table,thebibliography,keywords,abstract,titlepage,lstlisting,alertblock,block,columns"
 if !exists("g:macvim_skim_app_path")
     let g:macvim_skim_app_path='/Applications/Skim.app'
 endif
