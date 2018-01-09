@@ -59,7 +59,7 @@ let g:pydocstring_templates_dir = '~/.vim/ftplugin/python/vim-pydocstring/templa
 nmap <silent> <leader>l <Plug>(pydocstring)
 
 " vim-flake8 customization
-let g:flake8_cmd="/opt/local/bin/flake8"
+let g:flake8_cmd="/Users/amh4/miniconda3/bin/flake8"
 
 " Switching between split screens 
 noremap <C-j> <C-w><C-j>

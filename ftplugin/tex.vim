@@ -47,6 +47,7 @@ endif
 
 " Autocomplete settings:
 let g:Tex_Env_figure = "\\begin{figure}%[htbp]\<CR>\\includegraphics[width=<++>\\linewidth]{<+file+>}\<CR>\\caption{<+caption text+>}\<CR>\\label{fig:<+label+>}\<CR>\\end{figure}\<CR><++>"
+let g:Tex_Com_frame = "\\frame{\\frametitle{<++>}\<CR><++>\<CR>}"
 
 "" Activate skim
 "nnoremap <buffer> <localleader>v
