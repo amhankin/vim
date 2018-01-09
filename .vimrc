@@ -53,10 +53,21 @@
 	Plugin 'davidhalter/jedi-vim'
 	Plugin 'keflavich/macvim-skim'
 	Plugin 'nvie/vim-flake8'
+	Plugin 'chrisbra/csv.vim'
 	"Plugin 'klen/python-mode'
 
 	" The bundles you install will be listed here
 	filetype plugin indent on
+
+" Automatically detect csv files
+if exists("did_load_csvfiletype")
+	finish
+endif
+let did_load_csvfiletype=1
+augroup filetypedetect
+	au! BufRead,BufNewFile *.csv,*.dat	setfiletype csv
+augroup END
+let g:csv_highlight_column = 'y'
 
 
 " Minibufexpl settings (tab like buffer tracking)
