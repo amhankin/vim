@@ -54,6 +54,7 @@
 	Plugin 'keflavich/macvim-skim'
 	Plugin 'nvie/vim-flake8'
 	Plugin 'chrisbra/csv.vim'
+	Plugin 'christoomey/vim-tmux-navigator'
 	"Plugin 'klen/python-mode'
 
 	" The bundles you install will be listed here
