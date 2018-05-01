@@ -1,3 +1,5 @@
+
+
 " Generic settings for all filetypes
 	set nocompatible
 	set history=100
@@ -19,18 +21,20 @@
 	set completeopt=menuone,preview,longest
 
 " Sytnax highlighting stuff
-	if $COLORTERM == 'gnome-terminal'
-	  set t_Co=256
-	endif
-	let g:solarized_termcolors=256
-	"let g:solarized_contrast="high"
-	syntax enable
-	colorscheme solarized
-	if has('gui_running')
-		set background=light
-	else
-		set background=light
-	endif
+let hostname = substitute(system('hostname'), '\n', '', '') " Get system variables for system dependent configurations
+if $COLORTERM == 'gnome-terminal'
+  set t_Co=256
+endif
+let g:solarized_termcolors=256
+"let g:solarized_contrast="high"
+syntax enable
+colorscheme solarized
+set background=light
+if hostname == "688101H116ARTIQ"
+	set background=dark
+else
+	set background=light
+endif
 
 " Vundle Settings
 " How install Vundle: 
