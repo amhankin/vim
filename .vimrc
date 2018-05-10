@@ -59,6 +59,7 @@ endif
 	Plugin 'nvie/vim-flake8'
 	Plugin 'chrisbra/csv.vim'
 	Plugin 'christoomey/vim-tmux-navigator'
+	Plugin 'scrooloose/nerdtree'
 	"Plugin 'klen/python-mode'
 
 	" The bundles you install will be listed here
