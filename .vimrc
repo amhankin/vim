@@ -59,7 +59,8 @@ endif
 	Plugin 'nvie/vim-flake8'
 	Plugin 'chrisbra/csv.vim'
 	Plugin 'christoomey/vim-tmux-navigator'
-	Plugin 'scrooloose/nerdtree'
+	Plugin 'jeetsukumaran/vim-filebeagle'
+	"Plugin 'scrooloose/nerdtree'
 	"Plugin 'klen/python-mode'
 
 	" The bundles you install will be listed here
@@ -106,3 +107,6 @@ let g:csv_highlight_column = 'y'
 
 	"Allow paste to paste over highlighted text in visual mode
 	vnoremap p <Esc>:let current_reg = @"<CR>gvs<C-R>=current_reg<CR><Esc>
+
+	"NERDTree
+	map <leader>t :NERDTreeToggle<CR>
