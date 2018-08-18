@@ -52,7 +52,6 @@ endif
 	Plugin 'altercation/vim-colors-solarized'
 	Plugin 'amhankin/taglist.vim'
 	Plugin 'heavenshell/vim-pydocstring'
-	"Plugin 'tmhedberg/SimpylFold'
 	Plugin 'tmhedberg/SimpylFold'
 	Plugin 'davidhalter/jedi-vim'
 	Plugin 'keflavich/macvim-skim'
