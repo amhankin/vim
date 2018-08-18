@@ -19,6 +19,7 @@
 	set ruler				" Display column and row
 	set hlsearch			" highlight search terms
 	set completeopt=menuone,preview,longest
+	set cursorline
 
 " Sytnax highlighting stuff
 let hostname = substitute(system('hostname'), '\n', '', '') " Get system variables for system dependent configurations
