@@ -26,6 +26,10 @@ imap <D-r> <ESC><D-r>
 map <D-b> :w<cr><leader>ll:exe '!bibtex ' . expand('%:r')<cr><leader>ll<leader>ll
 imap <D-b> <ESC><D-b>
 
+" Move around more naturally when word wrapping is used
+map j gj
+map k gk
+
 " Warnings to ignore
 let g:Tex_IgnoredWarnings ='
       \"Underfull\n".

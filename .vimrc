@@ -29,11 +29,11 @@ let g:solarized_termcolors=256
 "let g:solarized_contrast="high"
 syntax enable
 colorscheme solarized
-set background=light
+set background=dark
 if hostname == "688101H116ARTIQ"
 	set background=dark
 else
-	set background=light
+	set background=dark
 endif
 
 " Vundle Settings
@@ -53,7 +53,7 @@ endif
 	Plugin 'amhankin/taglist.vim'
 	Plugin 'heavenshell/vim-pydocstring'
 	"Plugin 'tmhedberg/SimpylFold'
-	Plugin 'amhankin/SimpylFold'
+	Plugin 'tmhedberg/SimpylFold'
 	Plugin 'davidhalter/jedi-vim'
 	Plugin 'keflavich/macvim-skim'
 	Plugin 'nvie/vim-flake8'
