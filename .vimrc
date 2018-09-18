@@ -19,6 +19,7 @@
 	set ruler				" Display column and row
 	set hlsearch			" highlight search terms
 	set completeopt=menuone,preview,longest
+	set cursorline
 
 " Sytnax highlighting stuff
 let hostname = substitute(system('hostname'), '\n', '', '') " Get system variables for system dependent configurations
@@ -29,7 +30,7 @@ let g:solarized_termcolors=256
 "let g:solarized_contrast="high"
 syntax enable
 colorscheme solarized
-set background=light
+set background=dark
 if hostname == "688101H116ARTIQ"
 	set background=dark
 else

@@ -26,10 +26,7 @@ imap <D-r> <ESC><D-r>
 map <D-b> :w<cr><leader>ll:exe '!bibtex ' . expand('%:r')<cr><leader>ll<leader>ll
 imap <D-b> <ESC><D-b>
 
-" Easier navigation when using word wrapping for paragraphs
-"	I find it is easier to collaborate with others if I wrap
-"	lines rather than force a new line every 90 or so
-"	characters
+" Move around more naturally when word wrapping is used
 map j gj
 map k gk
 
