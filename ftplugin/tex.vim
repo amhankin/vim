@@ -3,6 +3,7 @@ set completeopt=menuone,preview
 set tabstop=2
 set shiftwidth=2
 set foldnestmax=1
+set nocursorline
 
 " TIP: if you write your \label's as \label{fig:something}, then if you
 " type in \ref{fig: and press <C-n> you will automatically cycle through
@@ -29,6 +30,9 @@ imap <D-b> <ESC><D-b>
 " Move around more naturally when word wrapping is used
 map j gj
 map k gk
+
+" Fold all but current fold
+map zs zMzv
 
 " Warnings to ignore
 let g:Tex_IgnoredWarnings ='
