@@ -3,7 +3,7 @@ set completeopt=menuone,preview
 set tabstop=2
 set shiftwidth=2
 set foldnestmax=1
-set nocursorline
+"set nocursorline
 
 " TIP: if you write your \label's as \label{fig:something}, then if you
 " type in \ref{fig: and press <C-n> you will automatically cycle through
