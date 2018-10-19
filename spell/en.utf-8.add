@@ -89,3 +89,6 @@ decrystallize
 decrystalize/!
 nonthermal
 thermalize
+thermalize
+Langevin
+semiclassical

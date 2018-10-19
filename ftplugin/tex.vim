@@ -1,4 +1,5 @@
 set spell
+syntax spell toplevel
 set completeopt=menuone,preview
 set tabstop=2
 set shiftwidth=2
